@@ -2,15 +2,15 @@
 namespace pverb\cli;
 
 class Color {
+    public const C_BLACK   = "\33[0m";
+    public const C_RED     = "\33[31m";
+    public const C_GREEN   = "\33[32m";
+    public const C_YELLOW  = "\33[33m";
+    public const C_BLUE    = "\33[34m";
+    public const C_MAGENTA = "\33[35m";
+    public const C_CYAN    = "\33[36m";
+    public const C_WHITE   = "\33[37m";
     public const C_RESET   = "\33[0m";
-    public const C_BLACK   = "\33[31m";
-    public const C_RED     = "\33[32m";
-    public const C_GREEN   = "\33[33m";
-    public const C_YELLOW  = "\33[34m";
-    public const C_BLUE    = "\33[35m";
-    public const C_MAGENTA = "\33[36m";
-    public const C_CYAN    = "\33[37m";
-    public const C_WHITE   = "\33[0m";
 }
 
 class Printer {
